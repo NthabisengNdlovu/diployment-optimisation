@@ -27,6 +27,20 @@ Meta AI drafted slide text - Person 2 corrected numbers to match real data (428,
 Used Meta AI to practice Q&A: "Ask me hard executive questions" - Meta AI asked 5 tough questions, Person 2 prepared answers
 Used Meta AI to simplify explanation: "Explain Week 7 to a 5-year-old" - used that story for panel presentation
 
+Zenani- Automation Specialist (Integration & Optimisation Lead)
+
+What they did:
+Verified Week 2 + Week 7 integration still works in final build: Routing auto-generates email, Approval swaps Requester/Receiver
+Ran Optimisation Check: Load time, button functionality, responsiveness
+Fixed responsive bugs: Buttons cut off on mobile, header too wide - made all layouts stack on phone
+Verified all 8 weeks work in All-in-One Dashboard: Chatbot, Content Generator, Sentiment, Reporting, Predictive, Compliance, Workflow, Showcase
+
+How Meta AI helped:
+Asked Meta AI: "Make project responsive, test mobile 375px vs desktop 1440px"
+Meta AI generated media query CSS - Person 3 tested on real phone, found 0px overflow after fix
+Used Meta AI to debug integration: "Why is approval not updating content?" - Meta AI suggested calling generateApprovalContent() after status change
+Person 3 implemented fix and re-tested all flows
+
 Adriyell- Support Roles (Documentation, Portfolio & Presentation Lead)
 
 Built Professional Portfolio: Cards for Weeks 1-8 with demo buttons
